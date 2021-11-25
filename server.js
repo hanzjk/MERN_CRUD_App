@@ -25,7 +25,7 @@ app.use(materialRoutes);
 
 
 const PORT=8000;
-const DB_URL='mongodb+srv://hansijk:hansi123@cluster0.maxjh.mongodb.net/StudentManagementSystem?retryWrites=true&w=majority';
+const DB_URL=''; //Enter DB URL
 
 mongoose.connect(DB_URL,{
     useNewURLParser:true,
